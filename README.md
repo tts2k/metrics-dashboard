@@ -1,11 +1,12 @@
-**Note:** For the screenshots, you can store all of your answer images in the `answer-img` directory.
-
 ## Verify the monitoring installation
 
 run `kubectl` command to show the running pods and services for all components. Take a screenshot of the output and include it here to verify the installation
+![img](./screenshots/kube-pods.png)
 
 ## Setup the Jaeger and Prometheus source
 Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
+![img](./screenshots/prom-explore.png) 
+![img](./screenshots/jaeger-explore.png) 
 
 ## Create a Basic Dashboard
 Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
@@ -20,7 +21,6 @@ Create a dashboard in Grafana that shows Prometheus as a source. Take a screensh
 - CPU/Memory usage
 - Failure rate
 - Number of success/failed requests
-
 
 ## Create a Dashboard to measure our SLIs
 ![img](./screenshots/prom-jeager-dashboard.png)
